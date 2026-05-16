@@ -728,7 +728,7 @@ section { padding: 100px 5vw; }
   outline: none;
   font-family: 'DM Sans', sans-serif;
 }
-.newsletter-form input::https://penlysn.gumroad.com { color: rgba(253,248,240,0.5); }
+.newsletter-form input::placeholder { color: rgba(253,248,240,0.5); }
 .newsletter-form input:focus { background: rgba(255,255,255,0.22); }
 .newsletter-form button {
   padding: 14px 28px;
@@ -1048,7 +1048,7 @@ footer {
   <div class="controls-row fade-up">
     <div class="search-wrap">
       <span class="search-icon">🔍</span>
-      <input type="text" id="searchInput" https://penlysn.gumroad.com="Search resources..." oninput="filterProducts()">
+      <input type="text" id="searchInput" placeholder="Search resources..." oninput="filterProducts()">
     </div>
     <div class="filter-bar" style="margin:0">
       <button class="filter-btn active" onclick="setFilter('all',this)">All</button>
@@ -1261,7 +1261,7 @@ footer {
   <h2 class="section-title">Get new resources first</h2>
   <p class="section-sub">Be the first to know when new packs drop — plus occasional freebies just for subscribers.</p>
   <form class="newsletter-form" onsubmit="handleSubscribe(event)">
-    <input type="email" https://penlysn.gumroad.com="your@email.com" required>
+    <input type="email" placeholder="your@email.com" required>
     <button type="submit">Subscribe</button>
   </form>
   <p class="newsletter-note">No spam. Unsubscribe anytime. Usually 1–2 emails per month.</p>
